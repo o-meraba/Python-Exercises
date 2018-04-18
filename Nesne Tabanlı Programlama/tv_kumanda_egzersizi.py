@@ -2,24 +2,28 @@ import time
 import random
 
 class Kumanda():
+    #init başlangıc methodumuz. Kumanda class'ının default değerleri var. bunları daha sonra değiştirebilirsiniz.
     def __init__(self, tv_durumu="Kapalı", ses_seviyesi=0, kanal_listesi=["atv ","show"], aktif_kanal="atv"):
         self.tv_durumu=tv_durumu
         self.ses_seviyesi=ses_seviyesi
         self.kanal_listesi=kanal_listesi
         self.aktif_kanal=aktif_kanal
 
+    #tv_ac methodu
     def tv_ac(self):
         if(self.tv_durumu=="Açık"):
             print("Tv zaten açık")
         else:
             self.tv_durumu="Açık"
             print("Tv Açıldı.")
+
     def tv_kapat(self):
         if(self.tv_durumu=="Kapalı"):
             print("Tv zaten kapalı")
         else:
             self.tv_durumu=="Açık"
             print("Tv Kapatıldı.")
+
     def ses_ayarları(self):
         while True:
             cevap = input("sesi azalt:'<'\nSesi arttır:'>'\nÇıkış:'çıkış'")
@@ -35,8 +39,6 @@ class Kumanda():
                 print("Ses güncellendi:",self.ses_seviyesi)
                 break
 
-
-
     def kanal_ekle(self,yeni_kanal):
 
         self.kanal_listesi.add(yeni_kanal)
@@ -51,7 +53,6 @@ class Kumanda():
 
     def __len__(self):
        return len(self.kanal_listesi)
-
 
     def __str__(self):
         return "Tv Durumu:{}\nTv Ses Seviyesi:{}\nKanal Listesi:{}\nSuanki Kanal:{}".format(self.tv_durumu,self.ses_seviyesi,self.kanal_listesi,self.aktif_kanal)
