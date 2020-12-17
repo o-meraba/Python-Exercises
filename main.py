@@ -1,4 +1,4 @@
-#This project is done by Muhammed Talha at 16/12/2020
+#This project is done by Omer at 16/12/2020
 
 
 print("please enter two  numbers")
