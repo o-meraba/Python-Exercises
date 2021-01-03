@@ -7,7 +7,7 @@
 weight=float(input('Enter your weight(k):'))
 length=float(input('Enter your length(m-eg(1.72)):'))
 index=float(weight/(length*length))
-print('Your weight(k):{0}, Your length(m):{1} and Your body index:{2}'.format(weight,length,weight/(length*length)))
+print('Your weight(k):{0}, Your length(m):{1} and Your body index:{2}'.format(weight,length,weight/(length**2)))
 
 if(index<18.5):
   print('Thin')
