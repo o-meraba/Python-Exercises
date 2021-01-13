@@ -38,17 +38,39 @@ def dosyadan_not_okuma():
       final=int(ogrenci_not_listesi[3])
       ortalama=int(vize1*0.3 + vize2*0.3 + final*0.4)
       harf_notu=harf_notu_hesaplama(ortalama)
-      yeni_liste.append(ogrenci_ad_soyad+'>>>>>>>>>>>>> :'+ harf_notu + '\n')
+      yeni_liste.append(ogrenci_ad_soyad+':'+ harf_notu + '\n')
    with open('yeni_not_listesi.txt','w',encoding='utf-8') as file2:
       file2.writelines(yeni_liste)
    with open('yeni_not_listesi.txt','r+',encoding='utf-8') as result_file:
       print(result_file.read())
 
 
+
+def kalan_gecen_listesi():
+    with open("yeni_not_listesi.txt","r+",encoding="utf-8") as file:
+      isim_harf_listesi=file.readlines()
+      gecenler_liste= list()
+      kalanlar_liste=list()
+
+      for ogrenci in isim_harf_listesi:
+          ogrenci_bilgisi=ogrenci.split(':')
+          ogrenci_ad_soyad=ogrenci_bilgisi[0]
+          ogrenci_harf_notu=ogrenci_bilgisi[1]
+          if(ogrenci_harf_notu.rstrip() == "FF"):
+            kalanlar_liste.append(ogrenci_ad_soyad + "\n")
+          else:
+            gecenler_liste.append(ogrenci_ad_soyad + "\n")
+
+
+    with open("gecenler_listesi.txt","w",encoding="utf-8") as file2:
+        file2.writelines(gecenler_liste)
+    with open("kalanlar_listesi.txt","w",encoding="utf-8") as file3:
+        file3.writelines(kalanlar_liste)
+
 def main():
 
      dosyadan_not_okuma()
-
+     kalan_gecen_listesi()
 
 
 main()
