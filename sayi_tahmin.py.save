@@ -1,0 +1,6 @@
+#-*- coding: utf-8 -*-
+import random
+
+
+def tahmin():
+    random_number=random

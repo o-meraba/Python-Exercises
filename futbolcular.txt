@@ -1,0 +1,33 @@
+Fatih,GS
+Ozan Tufan,FB
+Lopes,GS
+Mauricio Lemos,FB
+Caner,GS
+Kadir,GS
+Eren,GS
+Bilal,GS
+Serginho,GS
+Güray,GS
+Seleznyov,GS
+Fabri,BJK
+Mbwana Samatta,FB
+Gökhan,BJK
+Medel,BJK
+Tosic,BJK
+Luiz Gustavo,FB
+Adriano,BJK
+Tolgay,BJK
+Mustafa,GS
+Lens,BJK
+Talisca,BJK
+Babel,BJK
+Negredo,BJK
+Altay Bayındır,FB
+Gökhan Gönül,FB
+Marcel Tisserand,FB
+Caner Erkin,FB
+Barbosa,GS
+Jose Sosa,FB
+Dimitris Pelkas,FB
+Enner Valencia,FB
+Atiba,BJK

@@ -1,0 +1,20 @@
+#-*- coding:utf-8 -*-
+
+def number_to_string(number):
+     birler_basamagi=number%10
+     onlar_basamagi=number/10
+     if((birler_basamagi)==1):
+       birler_basamagi_string=''
+     elif((birler_basamagi)==2):
+       birler_basamagi_string=''
+     elif((birler_basamagi)==3):
+       birler_basamagi_string=''
+
+     elif((birler_basamagi)==4):
+       birler_basamagi_string=''
+     elif((birler_basamagi)==5):
+     elif((birler_basamagi)==6):
+     elif((birler_basamagi)==7):
+     elif((birler_basamagi)==8):
+     elif((birler_basamagi)==9):
+     elif((birler_basamagi)==0):
