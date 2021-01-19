@@ -38,6 +38,11 @@ def yayinevi_guncelle(yayinevi1,yayinevi2):
     cursor.execute("Update kitaplik set yayinevi = ? where Yayinevi = ? ",(yayinevi1, yayinevi2,))
     con.commit()
 
+def veri_sil(yazar_adi):
+    cursor.execute("Delete FROM kitaplik where yazar = ?", (yazar_adi,))
+    con.commit()
+ 
+
 def main():
 
     tablo_olustur()
@@ -46,7 +51,8 @@ def main():
             \n2)Listeleme
             \n3)Listeleme 2
             \n4)Listeleme 3
-            \n5)Yayinevi Guncelle\n''')
+            \n5)Yayinevi Guncelle
+            \n6)Yazar bilgisiyle sil\n''')
     secim = int(input('Seciminiz:'))
     if(secim == 1):
         kitap_ismi = input("Kitap ismi giriniz: ")
@@ -59,14 +65,21 @@ def main():
 
     elif(secim == 3):
         verileri_al_2()
+
     elif(secim == 4):
         yayin_evi = input("Yayin evi giriniz:")
         verileri_al_3(yayin_evi)
+
     elif(secim == 5):
         yayin_evi1 = input("Yayinevi yeni ismi giriniz:") 
         yayin_evi2 = input("Yayinevi eski ismi giriniz: ")
         yayinevi_guncelle(yayin_evi1,yayin_evi2)
         print('Guncellendi...')
+
+    elif(secim == 6):
+        yazar_adi = input("Yazar adi giriniz:")
+        veri_sil(yazar_adi)
+
     con.close()
 
 
