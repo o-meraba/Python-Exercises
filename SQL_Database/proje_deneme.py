@@ -62,15 +62,12 @@ while True:
          else:
            print("Silme islemi iptal edildi.")
          
-    elif(islem == 5):
+    elif(int(islem) == 5):
          isim = input("Hangi kitabin baskisini yukseltmek istiyorsunuz: ")
          print("Baski yukseltiliyor...")
          time.sleep(2)
          kutuphane.baski_yukselt(isim)
          print("Baski yükseltildi..")
-
-    elif(int(islem) == 5):
-         kutuphane.baski_yukselt()
 
     else:
        print("Yanlis bir secim yaptiniz.. Tekrar Secim yapiniz..")
