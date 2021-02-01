@@ -3,6 +3,10 @@
 from sarki import *
 
 
+# def favorilere_ekle(isim):
+#  return isim
+  
+
 def main():
     print("""
           ***************Şarkı Programına Hoşgeldiniz**********
@@ -17,17 +21,15 @@ def main():
 
 4. Şarkı Sil
 
-5. Şarkı Güncelle
+5. Favoriler Listesine Şarkı Ekle
 
-6. Favoriler Listesine Şarkı Ekle
+6. Favoriler Listesinden Şarkı Kaldır
 
-7. Favoriler Listesinden Şarkı Kaldır
-
-8. Toplam Şarkı Süresini Göster
+7. Toplam Şarkı Süresini Göster
           
-9. Rastgele Şarkı Seç
+8. Rastgele Şarkı Seç
 
-10. Karışık Liste Yap
+9. Karışık Liste Yap
 
 Çıkmak için 'q' ya basınız.
 *************************************""")
@@ -57,8 +59,8 @@ def main():
                     produksiyon_sirketi = input("Prodüksiyon şirketi giriniz: ")
                     sarki_suresi = int(input("Şarkı süresini giriniz (saniye olarak): "))
                     sarki_cikis_yili = input("Şarkı çıkış yılı giriniz: ")
-                    yeni_sarki = Sarki(sarki_ismi, sanatci_adi_soyadi, album_adi, produksiyon_sirketi, sarki_suresi, sarki_cikis_yili)
-                    print("Kitap ekleniyor...")
+                    yeni_sarki = SarkiKayit(sarki_ismi, sanatci_adi_soyadi, album_adi, produksiyon_sirketi, sarki_suresi, sarki_cikis_yili)
+                    print("Şarkı ekleniyor...")
                     time.sleep(2)
                     sarkiUyg.sarki_ekle(yeni_sarki)
                     print("Şarkı eklendi.")
@@ -76,25 +78,34 @@ def main():
                               print("Şarkı silindi.")
                          else:
                               print("Silme islemi iptal edildi.")
-               
-                elif(int(islem) == 5): # Sarki güncelleme
-                    #sarki_ismi = input("Güncellenecek şarkı ismini giriniz: ")
-                    pass 
+              
+                     
 
-                elif(int(islem) == 6): # Favori listesine sarki ekleme
-                    pass
-               
-                elif(int(islem) == 7): # Favori Listesinden sarki kaldirma
+                elif(int(islem) == 5): # Favori listesine sarki ekleme
+                    sarki_ismi = input("Favori listenize eklemek istediğiniz şarkıyı yazın: ")
+                    result = sarkiUyg.favorilere_ekle(sarki_ismi)
 
+                    if(result == True):
+                      print('Sarki Eklendi.')
+
+                    elif(result == "Sarki_eklidir"):
+                      print("Şarkı favorilere eklidir.")
+
+                    else:
+                      print("Eklemek istediğiniz şarkı bulunamadı.")
+                      
+               
+                elif(int(islem) == 6): # Favori Listesinden sarki kaldirma
+                    favorilerden_sil("Hello")
                     pass
                
-                elif(int(islem) == 8): # Toplam Sarki suresini gosterme
+                elif(int(islem) == 7): # Toplam Sarki suresini gosterme
                     pass
                
-                elif(int(islem) == 9): # Rastgele bir sarki secme
+                elif(int(islem) == 8): # Rastgele bir sarki secme
                     pass
                
-                elif(int(islem) == 10): # Karisik bir liste yapma(10)
+                elif(int(islem) == 9): # Karisik bir liste yapma(10)
 
                     pass
 
@@ -104,5 +115,7 @@ def main():
           except ValueError:
                print("Geçersiz işlem yaptınız. Tekrar seçim yapınız...")
                continue
+          except NameError:
+                raise
 
 main()
