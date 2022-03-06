@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-print('Welcome to ATM - Automated Teller MAchine\n')
+print('Welcome to ATM - Automated Teller Machine\n')
 print('''Main\n
 1.Deposit
 2.Withdraw
@@ -16,11 +16,11 @@ while(1):
 	  print("Have a nice day")
 	  break
 	if(option==1): #deposit option
-	  deposit_value=input('Please enter your deposit value:')
+	  deposit_value=int(input('Please enter your deposit value:'))
 	  balance+=deposit_value
 	  print('Your deposit have just added your balance.')
 	if(option==2): #withdraw option
-	  withdraw_value=input('Please enter your withdraw value:')
+	  withdraw_value=int(input('Please enter your withdraw value:'))
 	  if(balance>=withdraw_value):
 	    balance-=withdraw_value
 	    print('Your money have just withdrawed.')
