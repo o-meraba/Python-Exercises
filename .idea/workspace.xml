@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ece9e863-90cf-4441-96cc-df6526d1680c" name="Default Changelist" comment="added new codes">
-      <change afterPath="$PROJECT_DIR$/GuiProjects/addingButton.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MLProjects/example1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MLProjects/example2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MLProjects/example3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MLProjects/examples4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GuiProjects/addFunctionToButtons.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GuiProjects/calculater.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GuiProjects/exercise1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GuiProjects/exerciseColorStyle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GuiProjects/horizontalAndVerticalBox2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GuiProjects/horizontalVerticalBox.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GuiProjects/loginExercise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GuiProjects/qLineEditExercise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GuiProjects/registerExercise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_03_2022_23_19_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_03_2022_23_19__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +55,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../pythonProject" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.addingButton (1)">
-    <configuration name="AddTextAndPicture" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.registerExercise">
+    <configuration name="addFunctionToButtons" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -61,7 +68,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GuiProjects/AddTextAndPicture.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GuiProjects/addFunctionToButtons.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -70,7 +77,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="addingButton (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="exercise1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -82,7 +89,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GuiProjects/addingButton.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GuiProjects/exercise1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -91,7 +98,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="addingButton" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="loginExercise" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -103,7 +110,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\omera\PycharmProjects\Python-Exercises\GuiProjects\addingButton.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GuiProjects/loginExercise.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -112,7 +119,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="example3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="qLineEditExercise" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -120,11 +127,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MLProjects" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GuiProjects" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MLProjects/example3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GuiProjects/qLineEditExercise.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,7 +140,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="examples4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="registerExercise" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -141,11 +148,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MLProjects" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GuiProjects" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MLProjects/examples4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GuiProjects/registerExercise.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.addingButton (1)" />
-        <item itemvalue="Python.addingButton" />
-        <item itemvalue="Python.AddTextAndPicture" />
-        <item itemvalue="Python.examples4" />
-        <item itemvalue="Python.example3" />
+        <item itemvalue="Python.registerExercise" />
+        <item itemvalue="Python.loginExercise" />
+        <item itemvalue="Python.exercise1" />
+        <item itemvalue="Python.qLineEditExercise" />
+        <item itemvalue="Python.addFunctionToButtons" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +194,21 @@
       <option name="project" value="LOCAL" />
       <updated>1646947150779</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added new codes">
+      <created>1647378334336</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1647378334336</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added new codes">
+      <created>1647378343458</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1647378343458</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
