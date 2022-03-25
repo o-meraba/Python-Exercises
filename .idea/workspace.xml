@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ece9e863-90cf-4441-96cc-df6526d1680c" name="Default Changelist" comment="added new codes">
-      <change afterPath="$PROJECT_DIR$/GuiProjects/addFunctionToButtons.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GuiProjects/calculater.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GuiProjects/exercise1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GuiProjects/exerciseColorStyle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GuiProjects/horizontalAndVerticalBox2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GuiProjects/horizontalVerticalBox.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GuiProjects/loginExercise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GuiProjects/qLineEditExercise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GuiProjects/registerExercise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_03_2022_23_19_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_03_2022_23_19__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GuiProjects/registerExercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/GuiProjects/registerExercise.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647378343458</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added new codes">
+      <created>1648223740792</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1648223740792</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,5 +224,21 @@
     <MESSAGE value="added new files and fixed errors" />
     <MESSAGE value="added new codes" />
     <option name="LAST_COMMIT_MESSAGE" value="added new codes" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/GuiProjects/registerExercise.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/GuiProjects/registerExercise.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
