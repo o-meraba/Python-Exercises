@@ -9,9 +9,9 @@ class WindowClass(QtWidgets.QWidget):
         self.init_ui()
 
     def baglanti_olustur(self):
-        baglanti = sqlite3.connect("database.db")
+        baglanti = sqlite3.connect("members_db.db")
         self.cursor = baglanti.cursor()
-        self.cursor.execute("CREATE TABLE IF NOT EXISTS uyeler(kullanici_adi TEXT, parola TEXT)")
+        self.cursor.execute("CREATE TABLE IF NOT EXISTS members(username TEXT, password TEXT)")
         baglanti.commit()
 
     def init_ui(self):
@@ -48,13 +48,13 @@ class WindowClass(QtWidgets.QWidget):
         adi = self.kullanici_adi.text()
         par = self.parola.text()
 
-        self.cursor.execute("SELECT * FROM uyeler where kullanici_adi = ? and parola = ?",(adi,par))
+        self.cursor.execute("SELECT * FROM members where username = ? and password = ?",(adi,par))
         data = self.cursor.fetchall()
         if len(data) == 0:
             self.yazi_alani.setText("Böyle bir kullanıcı yok\n lütfen tekrar deneyin")
         else:
             self.yazi_alani.setText("hosgeldiniz")
-   
+
 
 
 
